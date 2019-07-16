@@ -35,7 +35,7 @@ This will open the iPython Notebook software and project file in your browser.
 
 ### Data
 
-The flower image dataset consists of 8,256 images. Each image is resized and cropped to dimensions of 224x224 which equates to 50,176 features with 102 different classes of flower. The class label for an image is equal to the lowest directory name in which the image is stored. The cat_to_name.json file contains a map that translates a class label to a flower name. 
+The data set consists of three files: `Udacity_AZDIAS_Subset.csv`, `Udacity_CUSTOMERS_Subset.csv`, and `AZDIAS_Feature_Summary.csv`.  The first two contain the main data for the general and customer populations respectively while the third file provides information about the type of information (categorical, quantitative, etc) each feature contains as well as the missing value codes.  There are 85 features in total with 891,221 observations in the `Udacity_AZDIAS_Subset.csv` file and 191,652 observations in the `Udacity_CUSTOMERS_Subset.csv` file.   Due to the terms and conditions in which the data is distributed through Udacity, the data set is not provided in this repository. 
 
 ## License
 
